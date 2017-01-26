@@ -8,7 +8,10 @@ body{
 }
 .news-container .title {
     margin-top: 30px;
-    text-align: center;
+    text-align: left;
+}
+.news-container span {
+    color: #cccccc;
 }
 
 .news-container .content {
