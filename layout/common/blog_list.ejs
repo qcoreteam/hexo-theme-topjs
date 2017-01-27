@@ -6,7 +6,7 @@
                     <li>
                         <a href="<%- url_for(post.path) %>" class="a-title"><%= post.title %></a>
                         <p class="span-title">作者：master  / 发表时间：<time datetime="<%- date(post.date)%>"><%- date(post.date)%></time></p>
-                        <div><%- excerpt(post, 500) %></div>
+                        <div><%- excerpt(post, 300) %></div>
                     </li>
                 <%})%>
             </ul>

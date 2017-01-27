@@ -47,6 +47,7 @@ body{
 .news-list ul li .span-title {
     margin-left: 10px;
     color: #999;
+    margin-top: 20px;
 }
 
 .news-list ul li a:hover {
