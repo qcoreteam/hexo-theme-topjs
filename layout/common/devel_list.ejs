@@ -6,7 +6,7 @@
                     <% page.posts.each(function(post, i){ %>
                         <li class="news-car">
                             <div class="news-content">
-                                <h5><a class="title" href="#"><%= post.title %></a></h5>
+                                <h5><a class="title" href="<%- url_for(post.path) %>"><%= post.title %></a></h5>
                                 <p>
                                     <%- excerpt(post) %>
                                 </p>
