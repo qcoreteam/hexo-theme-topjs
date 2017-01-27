@@ -33,8 +33,16 @@
     left:-1000px;
     overflow: scroll;
 }
+.sidebar-left .list-container
+{
+    margin-top:10px;
+}
 .sidebar-left a{
     text-decoration: none;
+}
+.sidebar-left hr
+{
+    width: 90%;
 }
 
 .sidebar-left .category{
@@ -42,7 +50,7 @@
     text-decoration: none;
     color:#999;
     padding-left: 20px;
-    line-height: 40px;
+    line-height: 30px;
 }
 
 .sm-header {
@@ -83,12 +91,45 @@
     color: #aaa;
     display: block;
     text-decoration: none;
+    font-size: 0.9em;
+    font-weight: normal;
 }
 .title-list a:hover {
     color: #42c950;
 }
 
 .title-list a.current {
+    color: #42c950;
+}
+.mobile-title-list {
+    padding: 0 0 20px 10px;
+    border-right: 1px solid #eee;
+    margin-bottom: 60px;
+    margin-top: 7px;
+}
+.mobile-title-list h6{
+    width: 80%;
+    color: #777;
+    font-size: 18px;
+    line-height: 40px;
+    border-bottom: 1px dotted #aaa;
+    font-weight: 300;
+}
+
+.mobile-title-list a{
+    width: 80%;
+    color: #aaa;
+    display: block;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: normal;
+    padding:0 0 5px 0;
+}
+.mobile-title-list a:hover {
+    color: #42c950;
+}
+
+.mobile-title-list a.current {
     color: #42c950;
 }
 @media (min-width:992px) {

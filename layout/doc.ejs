@@ -5,60 +5,12 @@
 </div>
 <div id="slide" class="container sidebar sidebar-left hidden-md-up">
     <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <a href="#" class="category">首页</a>
-            <a href="#" class="category">文档博客</a>
-            <a href="#" class="category">关于我们</a>
-            <div class="list-group" id="categoryList">
-
-                <a href="#" class="list-group-item">快输入们</a>
-
-                <div class="list-group collapse list-group-sub">
-                    <a href="#" class="list-group-item">应用定义</a>
-                    <a href="#" class="list-group-item">路由</a>
-                    <a href="#item-1-1" class="list-group-item">数据库</a>
-
-                    <div class="list-group collapse" id="item-1-1">
-                        <a href="#" class="list-group-item">Mysql</a>
-                        <a href="#" class="list-group-item">SQL Server</a>
-                        <a href="#" class="list-group-item">Monogo</a>
-                    </div>
-
-                </div>
-
-                <a href="#" class="list-group-item">Item 2</a>
-
-                <div class="list-group collapse list-group-sub">
-                    <a href="#" class="list-group-item">Item 1 di 2</a>
-                    <a href="#" class="list-group-item">Item 2 di 2</a>
-                    <a href="#" class="list-group-item">Item 3 di 2</a>
-                </div>
-
-                <a href="#" class="list-group-item">Item 3</a>
-
-                <div class="list-group collapse list-group-sub">
-                    <a href="#" class="list-group-item">Item 1 di 3</a>
-                    <a href="#" class="list-group-item">Item 2 di 3</a>
-                    <a href="#" class="list-group-item">Item 3 di 3</a>
-
-                    <div class="list-group collapse">
-                        <a href="#" class="list-group-item">Item 1 di 3.3</a>
-                        <a href="#" class="list-group-item">Item 2 di 3.3</a>
-                        <a href="#" class="list-group-item">Item 3 di 3.3</a>
-                    </div>
-
-                </div>
-
-                <a href="#" class="list-group-item">Item 4</a>
-
-                <div class="list-group collapse list-group-sub">
-                    <a href="#" class="list-group-item">Item 1 di 4</a>
-                    <a href="#" class="list-group-item">Item 2 di 4</a>
-                    <a href="#" class="list-group-item">Item 3 di 4</a>
-                </div>
-
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 list-container">
+            <%- generate_docs_sidebar_site_menu_for_mobile() %>
+            <hr/>
+            <div class="mobile-title-list" id="categoryList">
+                <%- generate_docs_sidebar_doc_list_for_mobile() %>
             </div>
-
         </div>
     </div>
 </div>
@@ -66,7 +18,7 @@
 <div class="container content">
     <div class="row">
         <div class="col-lg-3 col-md-3 hidden-sm-down title-list">
-            <%- generate_docs_sidebar() %>
+            <%- generate_docs_sidebar_for_pc() %>
         </div>
 
         <div class="col-lg-9 col-md-9 article-content">
@@ -86,87 +38,7 @@
                 </ul>
             </div>
             <div class="article">
-                <h3><a id="item-1">路由</a></h3>
-                <p>topjs支持完全自定义的路由，多样灵活。参考Phalcon laravel框架的路由定义等。
-                    topjs支持完全自定义的路由，多样灵活。参考Phalcon laravel框架的路由定义等。
-                    topjs支持完全自定义的路由，多样灵活。参考Phalcon laravel框架的路由定义等。
-                    topjs支持完全自定义的路由，多样灵活。参考Phalcon laravel框架的路由定义等。
-                    topjs支持完全自定义的路由，多样灵活。参考Phalcon laravel框架的路由定义等。
-                    topjs支持完全自定义的路由，多样灵活。参考Phalcon laravel框架的路由定义等。
-                    topjs支持完全自定义的路由，多样灵活。参考Phalcon laravel框架的路由定义等。
-                </p>
-                <h3><a id="item-2">中间件</a></h3>
-                <p>中间件支持验证器，过滤器等。</p>
-                <h3><a id="item-3">请求方法</a></h3>
-                <p>topjs支持8中http请求类型，适合做轻量级RESTful系统。</p>
-                <h4><a id="item-3-1">post</a></h4>
-                <p>Of course, sometimes you will need to capture segments of the URI within your route. For example, you may need to capture a user's ID from the URL. You may do so by defining route parameters:</p>
-                <h4><a id="item-3-2">get</a></h4>
-                <p>Of course, sometimes you will need to capture segments of the URI within your route. For example, you may need to capture a user's ID from the URL. You may do so by defining route parameters:</p>
-                <h4><a id="item-3-3">delete</a></h4>
-                <p>Of course, sometimes you will need to capture segments of the URI within your route. For example, you may need to capture a user's ID from the URL. You may do so by defining route parameters:</p>
-                <h4><a id="item-3-4">head</a></h4>
-                <p>Of course, sometimes you will need to capture segments of the URI within your route. For example, you may need to capture a user's ID from the URL. You may do so by defining route parameters:</p>
-                <h3>中间件</h3>
-                <p>中间件支持验证器，过滤器等。</p>
-                <h3>请求方法</h3>
-                <p>topjs支持8中http请求类型，适合做轻量级RESTful系统。</p>
-                <h4>post</h4>
-                <p>Of course, sometimes you will need to capture segments of the URI within your route. For example, you may need to capture a user's ID from the URL. You may do so by defining route parameters:</p>
-                <h4>get</h4>
-                <p>Of course, sometimes you will need to capture segments of the URI within your route. For example, you may need to capture a user's ID from the URL. You may do so by defining route parameters:</p>
-                <h4>delete</h4>
-                <p>Of course, sometimes you will need to capture segments of the URI within your route. For example, you may need to capture a user's ID from the URL. You may do so by defining route parameters:</p>
-                <h4>head</h4>
-                <p>Of course, sometimes you will need to capture segments of the URI within your route. For example, you may need to capture a user's ID from the URL. You may do so by defining route parameters:</p>
-                <h3>中间件</h3>
-                <p>中间件支持验证器，过滤器等。</p>
-                <h3>请求方法</h3>
-                <p>topjs支持8中http请求类型，适合做轻量级RESTful系统。</p>
-                <h4>post</h4>
-                <p>Of course, sometimes you will need to capture segments of the URI within your route. For example, you may need to capture a user's ID from the URL. You may do so by defining route parameters:</p>
-                <h4>get</h4>
-                <p>Of course, sometimes you will need to capture segments of the URI within your route. For example, you may need to capture a user's ID from the URL. You may do so by defining route parameters:</p>
-                <h4>delete</h4>
-                <p>Of course, sometimes you will need to capture segments of the URI within your route. For example, you may need to capture a user's ID from the URL. You may do so by defining route parameters:</p>
-                <h4>head</h4>
-                <p>Of course, sometimes you will need to capture segments of the URI within your route. For example, you may need to capture a user's ID from the URL. You may do so by defining route parameters:</p>
-                <h3>中间件</h3>
-                <p>中间件支持验证器，过滤器等。</p>
-                <h3>请求方法</h3>
-                <p>topjs支持8中http请求类型，适合做轻量级RESTful系统。</p>
-                <h4>post</h4>
-                <p>Of course, sometimes you will need to capture segments of the URI within your route. For example, you may need to capture a user's ID from the URL. You may do so by defining route parameters:</p>
-                <h4>get</h4>
-                <p>Of course, sometimes you will need to capture segments of the URI within your route. For example, you may need to capture a user's ID from the URL. You may do so by defining route parameters:</p>
-                <h4>delete</h4>
-                <p>Of course, sometimes you will need to capture segments of the URI within your route. For example, you may need to capture a user's ID from the URL. You may do so by defining route parameters:</p>
-                <h4>head</h4>
-                <p>Of course, sometimes you will need to capture segments of the URI within your route. For example, you may need to capture a user's ID from the URL. You may do so by defining route parameters:</p>
-                <h3>中间件</h3>
-                <p>中间件支持验证器，过滤器等。</p>
-                <h3>请求方法</h3>
-                <p>topjs支持8中http请求类型，适合做轻量级RESTful系统。</p>
-                <h4>post</h4>
-                <p>Of course, sometimes you will need to capture segments of the URI within your route. For example, you may need to capture a user's ID from the URL. You may do so by defining route parameters:</p>
-                <h4>get</h4>
-                <p>Of course, sometimes you will need to capture segments of the URI within your route. For example, you may need to capture a user's ID from the URL. You may do so by defining route parameters:</p>
-                <h4>delete</h4>
-                <p>Of course, sometimes you will need to capture segments of the URI within your route. For example, you may need to capture a user's ID from the URL. You may do so by defining route parameters:</p>
-                <h4>head</h4>
-                <p>Of course, sometimes you will need to capture segments of the URI within your route. For example, you may need to capture a user's ID from the URL. You may do so by defining route parameters:</p>
-                <h3>中间件</h3>
-                <p>中间件支持验证器，过滤器等。</p>
-                <h3>请求方法</h3>
-                <p>topjs支持8中http请求类型，适合做轻量级RESTful系统。</p>
-                <h4>post</h4>
-                <p>Of course, sometimes you will need to capture segments of the URI within your route. For example, you may need to capture a user's ID from the URL. You may do so by defining route parameters:</p>
-                <h4>get</h4>
-                <p>Of course, sometimes you will need to capture segments of the URI within your route. For example, you may need to capture a user's ID from the URL. You may do so by defining route parameters:</p>
-                <h4>delete</h4>
-                <p>Of course, sometimes you will need to capture segments of the URI within your route. For example, you may need to capture a user's ID from the URL. You may do so by defining route parameters:</p>
-                <h4>head</h4>
-                <p>Of course, sometimes you will need to capture segments of the URI within your route. For example, you may need to capture a user's ID from the URL. You may do so by defining route parameters:</p>
+               <%- page.content %>
             </div>
             <div class="page-div">
                 <span class="pre"><a href="#">< 上一篇</a></span>
