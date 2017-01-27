@@ -7,8 +7,9 @@ body{
     padding: 100px 0 100px 0;
 }
 .news-container .title {
-    margin-top: 30px;
+    margin-top: 20px;
     text-align: left;
+    padding-top: 20px;
 }
 .news-container span {
     color: #cccccc;
@@ -16,12 +17,13 @@ body{
 
 .news-container .content {
     background: white;
-    padding: 0 100px 30px 100px;
+    padding: 0 4% 30px 4%;
 }
 .news-container .detail
 {
     line-height: 35px;
     font-size: 16px;
+    text-indent: 2em;
 }
 
 .news-container .content .detail {
