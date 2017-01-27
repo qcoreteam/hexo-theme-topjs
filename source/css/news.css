@@ -71,47 +71,12 @@ body{
 .news-content .title {
     color: black;
     text-decoration: none;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
+}
+.news-content h5
+{
+    margin-bottom: 15px;
 }
 
 .news-content .title:hover {
     color: #42c950;
-}
-
-
-
-.hot-news {
-    padding: 20px 10px;
-    background: white;
-}
-.hot-news ul {
-    list-style: none;
-    padding: 0;
-}
-
-.hot-news ul a {
-    color: #999;
-    line-height: 30px;
-}
-
-.hot-news ul a:hover {
-    color: #42c950;
-}
-
-.hot-news ul li {
-    position: relative;
-    padding: 0 10px;
-}
-
-.hot-news ul li:before {
-    border: 2px solid gray;
-    height: 0;
-    content: '';
-    top: 1em;
-    position: absolute;
-    left: 2px;
 }
