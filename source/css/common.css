@@ -1,4 +1,8 @@
 /*base*/
+body
+{
+    color: #7c7c7c;
+}
 .main-color {
     color: #41485e;
 }

@@ -11,6 +11,11 @@ body{
     text-align: left;
     padding-top: 20px;
 }
+.news-container .title h4
+{
+    color: #8c8c8c;
+    margin-bottom: 10px;
+}
 .news-container span {
     color: #cccccc;
 }
@@ -18,6 +23,7 @@ body{
 .news-container .content {
     background: white;
     padding: 0 4% 30px 4%;
+    color: #7c7c7c;
 }
 .news-container .detail
 {

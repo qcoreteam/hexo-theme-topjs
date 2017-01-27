@@ -162,7 +162,7 @@
 }
 
 .news-list .title a {
-    color: #000000;
+    color: #7c7c7c;
     text-decoration: none;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -198,7 +198,7 @@
 }
 
 .news-list .list a {
-    color: black;
+    color: #7c7c7c;;
     text-decoration: none;
     float: left;
     display: block;

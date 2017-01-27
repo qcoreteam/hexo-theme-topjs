@@ -53,6 +53,7 @@ body{
 
 .news-content{
     float: left;
+    color: #7c7c7c;
 }
 .news-content p {
     overflow: hidden;
@@ -69,7 +70,7 @@ body{
 }
 
 .news-content .title {
-    color: black;
+    color: #8c8c8c;
     text-decoration: none;
 }
 .news-content h5

@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 content">
                 <div class="title">
-                    <h2><%= post.title %></h2>
-                    <span>2017-01-01 12:00:02</span>
+                    <h4><%= post.title %></h4>
+                    <span><time datetime="<%- date(post.date, "Y-MM-D h:m:s")%>"><%- date(post.date, "Y-MM-D h:m:s")%></time></span>
                 </div>
                 <hr/>
                 <div class="detail">
