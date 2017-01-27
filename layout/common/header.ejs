@@ -1,6 +1,11 @@
-<header class="navbar navbar-fixed-top fixed-header fixed-header-active header">
+<%
+    let hiddenCls = "";
+if (page.layout == "doc") {
+    hiddenCls = "hidden-sm-down";
+}
+%>
+<header class="navbar navbar-fixed-top fixed-header fixed-header-active header <%= hiddenCls %>">
  <nav class="navbar navbar-light">
-
   <div class="">
    <button class="navbar-toggler hidden-lg-up float-xs-right" type="button" data-toggle="collapse"
            data-target="#navbarResponsive"
