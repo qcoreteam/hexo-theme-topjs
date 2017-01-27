@@ -32,6 +32,7 @@
     padding-top: 45px;
     left:-1000px;
     overflow: scroll;
+    width: 100%;
 }
 .sidebar-left .list-container
 {
@@ -39,10 +40,6 @@
 }
 .sidebar-left a{
     text-decoration: none;
-}
-.sidebar-left hr
-{
-    width: 90%;
 }
 
 .sidebar-left .category{
@@ -73,21 +70,21 @@
 
 .title-list {
     padding: 23px 0 20px 10px;
-    border-right: 1px solid #eee;
+    border-right: 1px solid #eeeeee;
     margin-bottom: 60px;
     margin-top: 7px;
 }
 .title-list h4{
-    width: 80%;
-    color: #777;
+    width: 90%;
+    color: #8c8c8c;
     font-size: 18px;
     line-height: 40px;
-    border-bottom: 1px dotted #aaa;
+    border-bottom: 1px solid #eeeeee;
     font-weight: 300;
 }
 
 .title-list a{
-    width: 80%;
+    width: 90%;
     color: #aaa;
     display: block;
     text-decoration: none;
@@ -103,21 +100,21 @@
 }
 .mobile-title-list {
     padding: 0 0 20px 10px;
-    border-right: 1px solid #eee;
+    border-right: 1px solid #eeeeee;
     margin-bottom: 60px;
     margin-top: 7px;
 }
 .mobile-title-list h6{
-    width: 80%;
-    color: #777;
+    width: 90%;
+    color: #8c8c8c;
     font-size: 18px;
     line-height: 40px;
-    border-bottom: 1px dotted #aaa;
+    border-bottom: 1px solid #eeeeee;
     font-weight: 300;
 }
 
 .mobile-title-list a{
-    width: 80%;
+    width: 90%;
     color: #aaa;
     display: block;
     text-decoration: none;
