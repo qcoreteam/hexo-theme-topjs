@@ -1,8 +1,4 @@
 /*base*/
-body
-{
-    color: #7c7c7c;
-}
 .main-color {
     color: #41485e;
 }
@@ -209,4 +205,18 @@ a {
 
 #toTop i:before {
     content: '\E601';
+}
+
+.page-div {
+    overflow: hidden;
+    margin-top: 20px;
+    line-height: 30px;
+    vertical-align:middle;
+}
+.page-div a{
+    color: #42c950;
+}
+
+.page-div .next {
+    float: right;
 }
