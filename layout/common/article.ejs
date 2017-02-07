@@ -10,6 +10,18 @@
                 <div class="detail">
                     <%- post.content %>
                 </div>
+
+                <% if (page.prev || page.next){ %>
+                <div class="page-div">
+                    <% if (page.prev){ %>
+                    <span class="pre"><a href="<%- config.root %><%- page.prev.path %>">&lt; <%= page.prev.title %></a></span>
+                    <% } %>
+                    <% if (page.next){ %>
+                    <span class="next"><a href="<%- config.root %><%- page.next.path %>"><%= page.next.title %> &gt;</a></span>
+                    <% } %>
+                </div>
+                <% } %>
+
                 <hr/>
                 <div class="list">
 

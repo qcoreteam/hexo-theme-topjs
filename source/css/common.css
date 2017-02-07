@@ -1,8 +1,4 @@
 /*base*/
-body
-{
-    color: #7c7c7c;
-}
 .main-color {
     color: #41485e;
 }
@@ -31,6 +27,14 @@ body
     color: black;
     margin: 5px;
     border: none;
+}
+
+a.page-link.current{
+    color: black;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
 }
 
 .page-link:focus, .page-link:hover {
@@ -67,18 +71,19 @@ body
     -moz-osx-font-smoothing: grayscale;
 }
 
-a {
+a,a:active,a:visited,a:focus,a:hover {
     text-decoration: none;
+    outline: none;
 }
 
 a:hover {
     text-decoration: none;
     cursor: pointer;
     color: #53cc5f;
-    filter: alpha(opacity=70);
-    -moz-opacity: 0.7;
-    -khtml-opacity: 0.7;
-    opacity: 0.7;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
 }
 
 .list-group a:hover {
@@ -209,4 +214,18 @@ a {
 
 #toTop i:before {
     content: '\E601';
+}
+
+.page-div {
+    overflow: hidden;
+    margin-top: 20px;
+    line-height: 30px;
+    vertical-align:middle;
+}
+.page-div a{
+    color: #42c950;
+}
+
+.page-div .next {
+    float: right;
 }

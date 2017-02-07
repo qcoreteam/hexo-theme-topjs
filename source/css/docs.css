@@ -167,16 +167,3 @@
     color: #42c950;
     font-size: 1rem;
 }
-
-.page-div {
-    margin-top: 50px;
-    line-height: 30px;
-    vertical-align:middle;
-}
-.page-div a{
-    color: #42c950;
-}
-
-.page-div .next {
-    float: right;
-}
